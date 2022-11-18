@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+</style>
 body{
     background-color:white;
-    font-family: arial,sans-serif;
     font-size: 16px;
-    height: 603px;
+    height: 1200px;
     margin: auto;
-    width: 910px;
-}
+    width: 900px;
+    }
 h1{
     color: white;
     text-align: left;
@@ -14,10 +15,12 @@ h1{
     display: inline;
 }
 .container{
-    
-    margin: 400px auto;
+    margin:100px;
     padding: 16px;
-}
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    }
 .figurines{
     color: white;
     font-size: 15px;
@@ -50,4 +53,68 @@ h2{margin: auto;
     text-align: center;
     padding: 2px;
     font-size: 15px;
+}
+figcaption{
+    border:1px solid #ccc;
+    width: 30%;
+}
+h3{
+    color: #666;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    opacity: 40%;
+    border-bottom: 1px solid #ccc;
+}
+.Aerith{
+    margin-right: 15px;
+    margin-bottom: 13px;
+    margin-left: 60px;
+}
+.Cloud-strife-remake{
+    margin-right: 15px;
+    margin-bottom: 13px;
+    .Cloud-strife
+}
+.Cloud-strife{
+    margin-bottom: 13px;
+    margin-bottom: 13px;
+
+}
+.Fenrir{
+    margin-right: 15px;
+    margin-bottom: 13px;
+    margin-left: 60px;
+}
+.Tifa{
+    margin-right: 15px;
+    margin-bottom: 13px;
+}
+.Vincent{
+    margin-bottom: 13px;
+    margin-bottom: 13px;
+}
+.Barret{
+    margin-right: 15px;
+    margin-bottom: 16px;
+    margin-left: 60px;
+}
+.Sephiroth{
+    margin-right: 15px;
+    margin-bottom: 16px
+}
+.Nanaki{
+    margin-bottom: 16px
+
+}
+figcaption h2{
+    font-weight: bold;
+    text-align: left;
+    font-size: 25px;
+}
+article{
+    color: white;
+    background-color: #c80000;
+    padding:16px;
+    margin: 15px 5px;
 }
